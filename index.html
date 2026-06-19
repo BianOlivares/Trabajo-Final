@@ -84,9 +84,6 @@
 			<p> Al contrastar entre las ofertas de las distintas universidades chilenas para el 2026, el gráfico revela que el costo real de una carrera incluye el costo de titulación, un costo que suele ser imprevisto para los estudiantes. La visualización expone que parte de estas universidades sumán más de $200.000 pesos chilenos al gasto total.</p>
            
 			<div id="contenedor">
-            <h1>ᕙ( •̀ ᗜ •́ )ᕗ</h1>
-            <h2>ELECTIVOS DE DISEÑO</h2>
-
             <input type="text" id="elInput" placeholder="Filtrar electivos…" />
             <div id="contenedordetabla">
                 <table>
@@ -98,6 +95,10 @@
                             <th>Grupo</th>
                             <th>Enfoque</th>
                         </tr>
+						</thead>
+                    <tbody id="este"></tbody>
+                </table>
+            </div>
 			 <script>
             const t = document.querySelector("#este");
             const URL = "https://api.myjson.online/v1/records/66a34375-25a0-4ac6-962c-b1af8bffc490";
