@@ -266,24 +266,25 @@
 /*
                Buscador y tabla de electivos
             */
-           #ElInput {
+           input #elInput {
               font-family: var(--sans);
-              font-size: 1rem;
+              font-size: 0.9rem;
               color: var(--color-text);
               background-color: var(--bg);
               width: 100%;
               max-width: 100%;
-              padding: 0.75rem 1rem;
-              margin: 2rem 0 1.5rem 0;
+              padding: 10px 14px;
+              margin: 2.5rem 0 1.5rem 0;
               border: 1px solid var(--border);
               border-radius: 4px;
               box-sizing: border-box;
-              transition: border-color 0.2s ease, box-shadow 0.2s ease;
+              transition: all 0.2s ease-in-out;
            }
-          #ElInput:focus {
+          input #elInput:focus {
               outline: none;
               border-color: var(--accent);
               box-shadow: 0 0 0 3px rgba(232, 87, 26, 0.15);
+              background-color: #ffffff;
               }
           #contenedordetabla {
               width: 100%;
