@@ -1,4 +1,4 @@
-             new Chart(document.getElementById("dispersion"), {
+new Chart(document.getElementById("dispersion"), {
                 type: "scatter",
                 data: {
                     datasets: [
