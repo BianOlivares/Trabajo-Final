@@ -32,21 +32,21 @@ new Chart(document.getElementById("grafico 1"), {
                                 label: 'Visualidad y Medios',
                                 data: [17, 0, 4, 9, 29],
                                 backgroundColor: '#ff9f40', //naranja
-                                borderColor: "#ff9a36",
+                                borderColor: "#ff9f40",
                                 borderWidth: 1
                                },
 						       {
 								label: 'Ambas',  
 								data: [8, 1, 16, 11, 15],
 								backgroundColor: '#ffcd56', //amarillo
-                                borderColor: "#fcc747",
+                                borderColor: "#ffcd56",
                                 borderWidth: 1
 							   },	   
 						       {
 								label: 'Industrial y Servicios',
 								data: [0, 56, 4, 4, 0],
 							    backgroundColor: '#4bc0c0', //verde agua
-                                borderColor: "#3dbfbf",
+                                borderColor: "#4bc0c0",
                                 borderWidth: 1
 							   },
 							 ] 
