@@ -70,8 +70,10 @@ new Chart(document.getElementById("grafico 1"), {
 						   text: "Cantidad de Electivos",
 						   color: "#999",
 						   font: { family: "'Georama', sans-serif", size: 11 },
-							   
-					   ticks: {
+
+						   padding: {bottom: 10}
+					   },
+						   ticks: {
                            beginAtZero: true,
 						   font: { family: "'Georama', sans-serif", size: 11 },
                            color: "#999",
