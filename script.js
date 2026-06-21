@@ -56,7 +56,7 @@ new Chart(document.getElementById("grafico 1"), {
 					   ticks: {
                                 font: { family: "'Georama', sans-serif", size: 11 },
                                 color: "#999",
-                                }
+                              }
                       },
                    y: {
 					   stacked: false,
@@ -64,20 +64,19 @@ new Chart(document.getElementById("grafico 1"), {
                            beginAtZero: true,
 						   font: { family: "'Georama', sans-serif", size: 11 },
                            color: "#999",
-							  }
-                       }
-					  }
+							   }
+					   }
                     },
-                    
-					
+                    			
 			plugins: {
               legend: { 
 				       display: true, 
-			           position: "top"
+			           position: "top",
 				       labels: {
                                 font: { family: "'Georama', sans-serif", size: 12 }
 			                   },
 				     
                       }
                     }
-                 });
+		          }
+			    });
