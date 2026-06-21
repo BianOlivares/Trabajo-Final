@@ -31,22 +31,22 @@ new Chart(document.getElementById("grafico 1"), {
               				   {
                                 label: 'Visualidad y Medios',
                                 data: [17, 0, 4, 9, 29],
-                                backgroundColor: "rgba(241,142,45,.75)",
+                                backgroundColor: '#ff9f40', //naranja
                                 borderColor: "rgba(245,142,45, 1)",
                                 borderWidth: 1
                                },
 						       {
 								label: 'Ambas',  
 								data: [8, 1, 16, 11, 15],
-								backgroundColor: "rgba(75, 192, 192, 0.75)", // Verde agua
+								backgroundColor: '#ffcd56', //amarillo
                                 borderColor: "rgba(75, 192, 192, 1)",
                                 borderWidth: 1
 							   },	   
 						       {
 								label: 'Industrial y Servicios',
 								data: [0, 56, 4, 4, 0],
-							    backgroundColor: "rgba(0, 162, 235, 0.75)",
-                                borderColor: "rgba(0, 162, 235, 1)",
+							    backgroundColor: '#4bc0c0', //verde agua
+                                borderColor: "rgba(75, 192, 192, 1)",
                                 borderWidth: 1
 							   },
 							 ] 
