@@ -20,7 +20,12 @@ new Chart(document.getElementById("grafico 1"), {
 			new Chart(document.getElementById("barras apiladas"), {
                 type: "bar",
                 data: {
-                    labels: ["Lenguajes Visuales y Narrativas", "Gestión y Fabricación Avanzada", "Territorios y Ciudadanias", "Gestión Estratégia y Sistemas Complejos", "Otros diseños"],
+                    labels: [ 
+						    ["Lenguajes Visuales", "y Narrativas"], 
+					        ["Gestión y", "Fabricación Avanzada"], 
+					        ["Territorios", "y Ciudadanias"], 
+					        ["Gestión Estratégia", "y Sistemas Complejos"],
+					        "Otros diseños"],
                     
                     datasets: [
               				   {
@@ -60,6 +65,12 @@ new Chart(document.getElementById("grafico 1"), {
                       },
                    y: {
 					   stacked: false,
+					   title: {
+						   display: true,
+						   text: "Cantidad de Electivos",
+						   color: "#999",
+						   font: { family: "'Georama', sans-serif", size: 11 },
+							   
 					   ticks: {
                            beginAtZero: true,
 						   font: { family: "'Georama', sans-serif", size: 11 },
