@@ -258,9 +258,7 @@
                margin: 1rem 0;
             }
 
-/*
-               Buscador y tabla de electivos
-            */
+			/* Buscador y tabla de electivos */
            input#elInput {
               font-family: var(--sans);
               font-size: 0.9rem;
