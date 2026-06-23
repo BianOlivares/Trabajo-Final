@@ -258,9 +258,7 @@
                margin: 1rem 0;
             }
 
-/*
-               Buscador y tabla de electivos
-            */
+			/* Buscador y tabla de electivos */
            input#elInput {
               font-family: var(--sans);
               font-size: 0.9rem;
@@ -284,42 +282,49 @@
           #contenedordetabla {
               width: 100%;
               overflow-x: auto; 
+              overflow-y: auto;           
+              max-height: 900px;           
               margin-bottom: 3rem;
               border: 1px solid #eee;
               border-radius: 4px;
               background: white;
               }
           #contenedordetabla table {
-          width: 100%;
-          border-collapse: collapse;
-          font-family: var(--sans);
-          font-size: 0.85rem;
-          line-height: 1.4;
-          text-align: left;
-          color: var(--color-text);
+              width: 100%;
+              border-collapse: collapse;
+              font-family: var(--sans);
+              font-size: 0.85rem;
+              line-height: 1.4;
+              text-align: left;
+              color: var(--color-text);
               }
           #contenedordetabla th {
-          background-color: #fcfcfc;
-          color: black;
-          font-weight: 700;
-          text-transform: uppercase;
-          letter-spacing: 0.05rem;
-          padding: 1rem;
-          border-bottom: 2px solid var(--accent);
+              background-color: #fcfcfc;
+              color: black;
+              font-weight: 700;
+              text-transform: uppercase;
+              letter-spacing: 0.05rem;
+              padding: 1rem;
+              border-bottom: 2px solid var(--accent);
+              }
+          #contenedordetabla thead th {   
+              position: sticky;
+              top: 0;
+              z-index: 2;
+              background-color: #fcfcfc;
               }
           #contenedordetabla td {
-          padding: 0.75rem 1rem;
-          border-bottom: 1px solid #eee;
-          vertical-align: top;
+              padding: 0.75rem 1rem;
+              border-bottom: 1px solid #eee;
+              vertical-align: top;
               }
           #contenedordetabla tbody tr:hover {
-          background-color: #fafafa;
+              background-color: #fafafa;
               }
           #contenedordetabla td:first-child,
           #contenedordetabla th:first-child {
-          width: 45px;
-          text-align: center;
-          font-weight: 600;
-          color: var(--color-muted);
+              width: 45px;
+              text-align: center;
+              font-weight: 600;
+              color: var(--color-muted);
               }
-    
